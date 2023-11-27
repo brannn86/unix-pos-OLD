@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <title>Klassy Cafe - Restaurant HTML Template</title>
+    <title>Unix Coffee</title>
 <!--
     
 TemplateMo 558 Klassy Cafe
@@ -20,6 +20,8 @@ https://templatemo.com/tm-558-klassy-cafe
 -->
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
 
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
@@ -52,7 +54,7 @@ https://templatemo.com/tm-558-klassy-cafe
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            <img src="assets/images/klassy-logo.png" align="klassy cafe html template">
+                            <img src="assets/images/WhatsApp_Image_2023-11-21_at_22.09.28_81b539f3-removebg-preview (1).png" align ="unix coffee" width="125">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -71,9 +73,9 @@ https://templatemo.com/tm-558-klassy-cafe
                             </li>
                         -->
                             <li class="scroll-to-section"><a href="#menu">Menu</a></li>
-                            <li class="scroll-to-section"><a href="#chefs">Chefs</a></li> 
+                            <li class="scroll-to-section"><a href="#chefs">Staff</a></li> 
                             <li class="submenu">
-                                <a href="javascript:;">Features</a>
+                                <a href="javascript:;">Tips</a>
                                 <ul>
                                     <li><a href="#">Features Page 1</a></li>
                                     <li><a href="#">Features Page 2</a></li>
@@ -82,7 +84,7 @@ https://templatemo.com/tm-558-klassy-cafe
                                 </ul>
                             </li>
                             <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
-                            <li class="scroll-to-section"><a href="#reservation">Contact Us</a></li> 
+                            <li class="scroll-to-section"><a href="#reservation">Contact Us</a></li>
                             {{-- CHANGES HERE LOGIN & REGISTER --}}
                             <li>
                                 @if (Route::has('login'))
@@ -116,7 +118,7 @@ https://templatemo.com/tm-558-klassy-cafe
                 <div class="col-lg-4">
                     <div class="left-content">
                         <div class="inner-content">
-                            <h4>KlassyCafe</h4>
+                            <h4>Unix Coffee</h4>
                             <h6>THE BEST EXPERIENCE</h6>
                             <div class="main-white-button scroll-to-section">
                                 <a href="#reservation">Make A Reservation</a>
@@ -166,7 +168,11 @@ https://templatemo.com/tm-558-klassy-cafe
                             <h6>About Us</h6>
                             <h2>We Leave A Delicious Memory For You</h2>
                         </div>
-                        <p>Klassy Cafe is one of the best <a href="https://templatemo.com/tag/restaurant" target="_blank" rel="sponsored">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes. <br><br>You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.</p>
+                        <p>Selamat datang di Unix Coffee, tempat di mana keseimbangan antara cita rasa kopi yang kaya dan atmosfer yang hangat menciptakan pengalaman unik untuk para pecinta kopi dan penikmat suasana santai. <br><br> Terletak di pusat Kota Bandung, Unix Coffee menyajikan kombinasi antara kehangatan desain interior yang modern dan keakraban nuansa klasik.
+
+                            Dengan menu kopi yang beragam, dari espresso penuh kekuatan hingga cappuccino yang lembut, setiap minuman disajikan dengan cinta dan perhatian pada detail. <br><br> Para barista kami terlatih untuk meracik kopi dengan presisi, memastikan setiap tegukan membawa kenikmatan yang tak terlupakan.
+                            
+                            Tidak hanya menyajikan kopi berkualitas, Unix Coffee juga menawarkan snack yang cocok untuk menemani percakapan santai atau sesi kerja Anda. Wi-Fi gratis dan suasana yang ramah membuat kafe ini menjadi tempat yang ideal untuk pertemuan bisnis, diskusi kreatif, atau sekadar melarikan diri dari kegaduhan kota</p>
                         <div class="row">
                             <div class="col-4">
                                 <img src="assets/images/about-thumb-01.jpg" alt="">
@@ -744,15 +750,13 @@ https://templatemo.com/tm-558-klassy-cafe
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="logo">
-                        <a href="index.html"><img src="assets/images/white-logo.png" alt=""></a>
+                    <div class="logo"></br>
+                        <h4 style="color: aliceblue;">Unix Coffee</h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xs-12">
-                    <div class="left-text-content">
-                        <p>© Copyright Klassy Cafe Co.
-                        
-                        <br>Design: TemplateMo</p>
+                    <div class="left-text-content"></br>
+                        <p>© Copyright Unix Coffee Co.
                     </div>
                 </div>
             </div>
